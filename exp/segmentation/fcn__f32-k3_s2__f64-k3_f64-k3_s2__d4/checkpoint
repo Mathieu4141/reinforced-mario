@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-330"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-286"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-297"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-308"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-319"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/segmentation/fcn__f32-k3_s2__f64-k3_f64-k3_s2__d4/fcn-330"

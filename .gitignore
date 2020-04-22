@@ -1,3 +1,12 @@
+# Mac
+.idea
+.DS_Store
+
+# project
+tests/
+testsbis/
+.display*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

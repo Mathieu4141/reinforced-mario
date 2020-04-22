@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-2052121"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-1400000"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-1600000"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-1800000"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-2000000"
+all_model_checkpoint_paths: "/Users/cytadel/poly/comp767/reinforced-mario/exp/rl/dqn-segm/model-2052121"
