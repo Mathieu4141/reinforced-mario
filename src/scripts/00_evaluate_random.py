@@ -9,7 +9,6 @@ from environment.env import make_environment
 from environment.play import play
 from utils.reproductibility import seed_all
 
-
 if __name__ == "__main__":
     e = make_environment()
     seed_all(e)

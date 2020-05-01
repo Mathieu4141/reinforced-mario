@@ -3,11 +3,10 @@ from shutil import rmtree
 from time import time
 
 import tensorflow as tf
-from tensorflow.layers import conv2d
 from tensorflow.python.ops.ragged.ragged_util import repeat
 from tqdm import tqdm, trange
 
-from constants import PROJECT_DIRECTORY, VGG_PATH
+from constants import PROJECT_DIRECTORY
 from segmentation.dataset.batch_generator import BatchGenerator
 
 SEGM_EXP_DIR = PROJECT_DIRECTORY / "exp" / "segmentation"

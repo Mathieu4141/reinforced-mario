@@ -17,10 +17,4 @@ class SegmentationWrapper(Wrapper):
     def step(self, action):
         frame, reward, done, info = self.env.step(action)
 
-        # self.k += 1
-        # if self.k % 15 < 4:
-        #     cv2.imwrite(
-        #         str(PROJECT_DIRECTORY / "data/frames" / f"frame-{self.k}.png"), cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-        #     )
-
         return self._segmentator.segmentate(frame, info["x_pos"], info["y_pos"])[:, :, np.newaxis], reward, done, info

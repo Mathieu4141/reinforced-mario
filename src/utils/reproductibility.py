@@ -1,8 +1,8 @@
 import random
 
 import numpy as np
-from gym import Env
 import tensorflow as tf
+from gym import Env
 
 SEED = 4242
 

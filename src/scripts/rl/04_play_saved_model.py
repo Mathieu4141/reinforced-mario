@@ -32,7 +32,7 @@ def play_qdn_from_fcn(episodes: int, name: str = "dqn-from-fcn__f16-k3_s2__f32-k
 
 
 if __name__ == "__main__":
-    seed_all(s=4242)
+    seed_all()
 
     # Uncomment one of the following:
 

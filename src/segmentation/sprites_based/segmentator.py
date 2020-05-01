@@ -1,13 +1,10 @@
 from itertools import chain
-from time import time
 
-import cv2
 import numpy as np
 
-from constants import PROJECT_DIRECTORY
-from segmentation.sprites_based.object_finder import ObjectFinder
 from segmentation.sprites_based.ground_finder import GroundFinder
 from segmentation.sprites_based.mario_finder import MarioFinder
+from segmentation.sprites_based.object_finder import ObjectFinder
 from segmentation.sprites_based.tile_finder import TileFinder
 
 
