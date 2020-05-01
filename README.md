@@ -27,6 +27,8 @@ It was made by Mathieu Beligon (mathieu.beligon@mail.mcgill.ca; ID: 260983485), 
    PYTHONPATH=src python src/scripts/00_evaluate_random.py
    ```
    
+4. The pre-trained DQN agent obtained through transfer learning was too large to fit on GitHub. You can download it on [Google Drive](https://drive.google.com/open?id=1yooe_lz8ev8mPgfIwhqz9PsqnX5kKk-o). Unzip the file, and put the `dqn-from-fcn__f16-k3_s2__f32-k3_f32-k3_s2__d8-with-conv` directory in [exp/rl](exp/rl), along with the other models.
+   
    
 All the data needed is included in this repo, along with pre-trained models.
 
@@ -45,7 +47,7 @@ All scripts are gathered in the [src/scripts](src/scripts) folder.
  
 ## Pre-trained models
 
-Pre-trained models, along with logs of training, are included in the [exp](exp) folder.
+Except for the larger DQN model obtained through transfer learning, pre-trained models, along with logs of training, are included in the [exp](exp) folder.
 
 ## Results
 
@@ -67,6 +69,8 @@ tensorboard --logdir=./exp/segmentation
 
 
 ### Agents
+
+![Training graphs](report/resources/episode-metrics_x_pos.png)
 
 To visualize the training graphs, please run
 

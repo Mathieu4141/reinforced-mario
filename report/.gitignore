@@ -1,3 +1,4 @@
-*
-!.gitignore
+*.aux
+report.*
 !report.pdf
+!resources/
